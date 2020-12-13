@@ -1,6 +1,6 @@
 # Vercel Runtimes
 
-This repo contains code example for different vercel runtimes.
+This repo contains code example for different vercel runtimes. Go to the [api directory](https://github.com/wzulfikar/vercel-runtimes/tree/main/api) to see the codes.
 
 ### Official Runtimes
 
