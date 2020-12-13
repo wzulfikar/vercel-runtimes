@@ -7,11 +7,17 @@
           max-width: 450px;
           margin: 2em auto;
         }
+        .sample-output {
+          display: block;
+          margin-top: 0.5em;
+        }
         .response {
           padding-bottom: 1em;
         }
         .response-status {
-          margin-right: 0.5em;
+          display: block;
+          font-family: monospace;
+          padding-top: 1em;
         }
       }
     </style>
@@ -35,52 +41,56 @@
       <ul>
         <li>
           <strong>Node:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/node"
+          <a
+            href="https://vercel-runtimes.vercel.app/api/node"
+            style="padding-bottom: "
             >https://vercel-runtimes.vercel.app/api/node</a
-          ><br />Sample output:
+          ><span class="sample-output">Sample output:</span>
           <pre><code><span class="hljs-selector-tag">JS</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
         <li>
           <strong>Go:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/go"
+          <a
+            href="https://vercel-runtimes.vercel.app/api/go"
+            style="padding-bottom: "
             >https://vercel-runtimes.vercel.app/api/go</a
-          ><br />Sample output:
+          ><span class="sample-output">Sample output:</span>
           <pre><code><span class="hljs-selector-tag">Go</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
         <li>
           <strong>Python:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/python"
+          <a
+            href="https://vercel-runtimes.vercel.app/api/python"
+            style="padding-bottom: "
             >https://vercel-runtimes.vercel.app/api/python</a
-          ><br />Sample output:
+          ><span class="sample-output">Sample output:</span>
           <pre><code><span class="hljs-selector-tag">Python</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
         <li>
           <p>
             <strong>Ruby:</strong>
-            <a href="https://vercel-runtimes.vercel.app/api/ruby"
+            <a
+              href="https://vercel-runtimes.vercel.app/api/ruby"
+              style="padding-bottom: "
               >https://vercel-runtimes.vercel.app/api/ruby</a
-            ><br />Sample output:
+            ><span class="sample-output">Sample output:</span>
           </p>
           <pre><code><span class="hljs-selector-tag">Ruby</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
       </ul>
@@ -89,57 +99,61 @@
         <li>
           <p>
             <strong>Bash:</strong>
-            <a href="https://vercel-runtimes.vercel.app/api/bash"
+            <a
+              href="https://vercel-runtimes.vercel.app/api/bash"
+              style="padding-bottom: "
               >https://vercel-runtimes.vercel.app/api/bash</a
-            ><br />Sample output:
+            ><span class="sample-output">Sample output:</span>
           </p>
           <pre><code>Bash says hello world! Time is 2020<span class="hljs-string">-12</span><span class="hljs-string">-13</span> 13:01:07 <span class="hljs-string">+0200</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
         <li>
           <p>
             <strong>PHP:</strong>
-            <a href="https://vercel-runtimes.vercel.app/api/php"
+            <a
+              href="https://vercel-runtimes.vercel.app/api/php"
+              style="padding-bottom: "
               >https://vercel-runtimes.vercel.app/api/php</a
-            ><br />Sample output:
+            ><span class="sample-output">Sample output:</span>
           </p>
           <pre><code><span class="hljs-selector-tag">PHP</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
         <li>
           <p>
             <strong>Rust:</strong>
-            <a href="https://vercel-runtimes.vercel.app/api/rust"
+            <a
+              href="https://vercel-runtimes.vercel.app/api/rust"
+              style="padding-bottom: "
               >https://vercel-runtimes.vercel.app/api/rust</a
-            ><br />Sample output:
+            ><span class="sample-output">Sample output:</span>
           </p>
           <pre><code><span class="hljs-selector-tag">Rust</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
         <li>
           <p>
             <strong>Deno:</strong>
-            <a href="https://vercel-runtimes.vercel.app/api/deno"
+            <a
+              href="https://vercel-runtimes.vercel.app/api/deno"
+              style="padding-bottom: "
               >https://vercel-runtimes.vercel.app/api/deno</a
-            ><br />Sample output:
+            ><span class="sample-output">Sample output:</span>
           </p>
           <pre><code><span class="hljs-selector-tag">Deno</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
           <div class="response">
-            Live response: <span class="response-status">loading..</span
-            ><span class="response-latency"></span>
+            Live response: <span class="response-status">loading..</span>
           </div>
         </li>
       </ul>
@@ -241,12 +255,12 @@
           const endtime = new Date();
           const latency = endtime - starttime;
 
+          // Example x-vercel-id: arn1::sfo1::ggszd-1607866746311-85544cfd4499
+          const region = resp.headers["x-vercel-id"].split("::")[1];
+
           divs[i].querySelector(
             ".response-status"
-          ).innerText = `httpstatus=${resp.status}`;
-          divs[i].querySelector(
-            ".response-latency"
-          ).innerText = `latency=${latency}ms`;
+          ).innerText = `httpstatus=${resp.status} region=${region} latency=${latency}ms`;
         }
       })();
     </script>
