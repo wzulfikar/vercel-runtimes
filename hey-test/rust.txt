@@ -1,0 +1,44 @@
+hey -z 10s https://vercel-runtimes.vercel.app/api/rust
+
+Summary:
+  Total:	10.2107 secs
+  Slowest:	2.9941 secs
+  Fastest:	0.1986 secs
+  Average:	0.2541 secs
+  Requests/sec:	195.0889
+
+  Total data:	107568 bytes
+  Size/request:	54 bytes
+
+Response time histogram:
+  0.199 [1]	|
+  0.478 [1890]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.758 [84]	|■■
+  1.037 [5]	|
+  1.317 [5]	|
+  1.596 [2]	|
+  1.876 [2]	|
+  2.155 [0]	|
+  2.435 [1]	|
+  2.715 [1]	|
+  2.994 [1]	|
+
+
+Latency distribution:
+  10% in 0.2043 secs
+  25% in 0.2074 secs
+  50% in 0.2141 secs
+  75% in 0.2347 secs
+  90% in 0.3296 secs
+  95% in 0.4800 secs
+  99% in 0.7461 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0064 secs, 0.1986 secs, 2.9941 secs
+  DNS-lookup:	0.0001 secs, 0.0000 secs, 0.0051 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0002 secs
+  resp wait:	0.2476 secs, 0.1985 secs, 2.9940 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0003 secs
+
+Status code distribution:
+  [200]	1992 responses

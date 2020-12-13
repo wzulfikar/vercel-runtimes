@@ -1,0 +1,44 @@
+hey -z 10s https://vercel-runtimes.vercel.app/api/python
+
+Summary:
+  Total:	10.1849 secs
+  Slowest:	2.1336 secs
+  Fastest:	0.1989 secs
+  Average:	0.2945 secs
+  Requests/sec:	168.0912
+
+  Total data:	89024 bytes
+  Size/request:	52 bytes
+
+Response time histogram:
+  0.199 [1]	|
+  0.392 [1513]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.586 [104]	|■■■
+  0.779 [38]	|■
+  0.973 [11]	|
+  1.166 [40]	|■
+  1.360 [2]	|
+  1.553 [2]	|
+  1.747 [0]	|
+  1.940 [0]	|
+  2.134 [1]	|
+
+
+Latency distribution:
+  10% in 0.2060 secs
+  25% in 0.2105 secs
+  50% in 0.2268 secs
+  75% in 0.3267 secs
+  90% in 0.4636 secs
+  95% in 0.6301 secs
+  99% in 1.0643 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0069 secs, 0.1989 secs, 2.1336 secs
+  DNS-lookup:	0.0002 secs, 0.0000 secs, 0.0089 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0003 secs
+  resp wait:	0.2874 secs, 0.1987 secs, 1.9005 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0005 secs
+
+Status code distribution:
+  [200]	1712 responses

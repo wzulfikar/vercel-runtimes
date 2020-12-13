@@ -1,0 +1,44 @@
+hey -z 10s https://vercel-runtimes.vercel.app/api/node
+
+Summary:
+  Total:	10.6496 secs
+  Slowest:	2.2874 secs
+  Fastest:	0.2001 secs
+  Average:	0.2743 secs
+  Requests/sec:	173.9972
+
+  Total data:	101915 bytes
+  Size/request:	55 bytes
+
+Response time histogram:
+  0.200 [1]	|
+  0.409 [1702]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.618 [51]	|■
+  0.826 [69]	|■■
+  1.035 [6]	|
+  1.244 [3]	|
+  1.452 [5]	|
+  1.661 [0]	|
+  1.870 [8]	|
+  2.079 [1]	|
+  2.287 [7]	|
+
+
+Latency distribution:
+  10% in 0.2062 secs
+  25% in 0.2101 secs
+  50% in 0.2177 secs
+  75% in 0.2388 secs
+  90% in 0.3394 secs
+  95% in 0.6963 secs
+  99% in 1.3309 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0076 secs, 0.2001 secs, 2.2874 secs
+  DNS-lookup:	0.0013 secs, 0.0000 secs, 0.0506 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0006 secs
+  resp wait:	0.2666 secs, 0.1999 secs, 2.2854 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0005 secs
+
+Status code distribution:
+  [200]	1853 responses

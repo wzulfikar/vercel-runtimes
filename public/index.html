@@ -1,84 +1,121 @@
 <html>
+  <head>
+    <title>Vercel Runtimes</title>
+    <style>
+      @media only screen and (min-width: 400px) {
+        #container {
+          max-width: 450px;
+          margin: 2em auto;
+        }
+      }
+    </style>
+  </head>
   <body>
-    <h2 id="vercel-runtime">Vercel Runtimes</h2>
-    <p>This repo contains code example for different vercel runtimes.</p>
-    <h3 id="official-runtimes">Official Runtimes</h3>
-    <ul>
-      <li>
-        <strong>Node:</strong>
-        <a href="https://vercel-runtimes.vercel.app/api/node"
-          >https://vercel-runtimes.vercel.app/api/node</a
-        ><br />Sample output:
-        <pre><code><span class="hljs-selector-tag">JS</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
-</code></pre>
-      </li>
-      <li>
-        <strong>Go:</strong>
-        <a href="https://vercel-runtimes.vercel.app/api/go"
-          >https://vercel-runtimes.vercel.app/api/go</a
-        ><br />Sample output:
-        <pre><code><span class="hljs-selector-tag">Go</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
-</code></pre>
-      </li>
-      <li>
-        <strong>Python:</strong>
-        <a href="https://vercel-runtimes.vercel.app/api/python"
-          >https://vercel-runtimes.vercel.app/api/python</a
-        ><br />Sample output:
-        <pre><code><span class="hljs-selector-tag">Python</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
-</code></pre>
-      </li>
-      <li>
-        <p>
-          <strong>Ruby:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/ruby"
-            >https://vercel-runtimes.vercel.app/api/ruby</a
+    <div id="container">
+      <h2 id="vercel-runtime">
+        <img
+          style="height: 0.6em; margin-right: 0.2em"
+          src="vercel.png"
+        />Vercel Runtimes
+      </h2>
+      <p>This repo contains code example for different vercel runtimes.</p>
+      <h4 id="official-runtimes">Official Runtimes</h4>
+      <ul>
+        <li>
+          <strong>Node:</strong>
+          <a href="https://vercel-runtimes.vercel.app/api/node"
+            >https://vercel-runtimes.vercel.app/api/node</a
           ><br />Sample output:
-        </p>
-        <pre><code><span class="hljs-selector-tag">Ruby</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
+          <pre><code><span class="hljs-selector-tag">JS</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
-      </li>
-    </ul>
-    <h3 id="community-runtimes">Community Runtimes</h3>
-    <ul>
-      <li>
-        <p>
-          <strong>Bash:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/bash"
-            >https://vercel-runtimes.vercel.app/api/bash</a
+        </li>
+        <li>
+          <strong>Go:</strong>
+          <a href="https://vercel-runtimes.vercel.app/api/go"
+            >https://vercel-runtimes.vercel.app/api/go</a
           ><br />Sample output:
-        </p>
-        <pre><code>Bash says hello world! Time is 2020<span class="hljs-string">-12</span><span class="hljs-string">-13</span> 13:01:07 <span class="hljs-string">+0200</span>
+          <pre><code><span class="hljs-selector-tag">Go</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
-      </li>
-      <li>
-        <p>
-          <strong>PHP:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/php"
-            >https://vercel-runtimes.vercel.app/api/php</a
+        </li>
+        <li>
+          <strong>Python:</strong>
+          <a href="https://vercel-runtimes.vercel.app/api/python"
+            >https://vercel-runtimes.vercel.app/api/python</a
           ><br />Sample output:
-        </p>
-        <pre><code><span class="hljs-selector-tag">PHP</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
+          <pre><code><span class="hljs-selector-tag">Python</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
-      </li>
-      <li>
-        <p>
-          <strong>Rust:</strong>
-          <a href="https://vercel-runtimes.vercel.app/api/rust"
-            >https://vercel-runtimes.vercel.app/api/rust</a
-          ><br />Sample output:
-        </p>
-        <pre><code><span class="hljs-selector-tag">Rust</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
+        </li>
+        <li>
+          <p>
+            <strong>Ruby:</strong>
+            <a href="https://vercel-runtimes.vercel.app/api/ruby"
+              >https://vercel-runtimes.vercel.app/api/ruby</a
+            ><br />Sample output:
+          </p>
+          <pre><code><span class="hljs-selector-tag">Ruby</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
-      </li>
-    </ul>
+        </li>
+      </ul>
+      <h4 id="community-runtimes">Community Runtimes</h4>
+      <ul>
+        <li>
+          <p>
+            <strong>Bash:</strong>
+            <a href="https://vercel-runtimes.vercel.app/api/bash"
+              >https://vercel-runtimes.vercel.app/api/bash</a
+            ><br />Sample output:
+          </p>
+          <pre><code>Bash says hello world! Time is 2020<span class="hljs-string">-12</span><span class="hljs-string">-13</span> 13:01:07 <span class="hljs-string">+0200</span>
+</code></pre>
+        </li>
+        <li>
+          <p>
+            <strong>PHP:</strong>
+            <a href="https://vercel-runtimes.vercel.app/api/php"
+              >https://vercel-runtimes.vercel.app/api/php</a
+            ><br />Sample output:
+          </p>
+          <pre><code><span class="hljs-selector-tag">PHP</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
+</code></pre>
+        </li>
+        <li>
+          <p>
+            <strong>Rust:</strong>
+            <a href="https://vercel-runtimes.vercel.app/api/rust"
+              >https://vercel-runtimes.vercel.app/api/rust</a
+            ><br />Sample output:
+          </p>
+          <pre><code><span class="hljs-selector-tag">Rust</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
+</code></pre>
+        </li>
+      </ul>
 
-    <p>
-      See Github repo:
-      <a href="https://github.com/wzulfikar/vercel-runtimes"
-        >https://github.com/wzulfikar/vercel-runtimes</a
-      >
-    </p>
+      <p style="text-align: center; padding: 1em">***</p>
+
+      P.S:
+      <ul>
+        <li>
+          <b>hey</b> test (just for fun):
+          <a href="hey-test_2020-12-13 13.57.40.jpeg"
+            ><img
+              style="padding: 1em; width: 100%"
+              src="hey-test_2020-12-13 13.57.40.jpeg"
+          /></a>
+        </li>
+        <li>
+          Vercel documentation:
+          <a href="https://vercel.com/docs/runtimes"
+            >https://vercel.com/docs/runtimes</a
+          >
+        </li>
+        <li>
+          Github repo:
+          <a href="https://github.com/wzulfikar/vercel-runtimes"
+            >https://github.com/wzulfikar/vercel-runtimes</a
+          >
+        </li>
+      </ul>
+    </div>
 
     <a
       href="https://github.com/wzulfikar/vercel-runtimes"
