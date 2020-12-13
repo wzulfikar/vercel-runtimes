@@ -60,5 +60,5 @@ _Check the demo!_
 
 P.S:
 
-- hey test: ![hey test](public/hey-test_2020-12-13 13.57.40.jpeg)
 - Vercel documentation: https://vercel.com/docs/runtimes
+- **hey** test (just for fun): ![hey test](public/hey-test_2020-12-13.jpeg)
