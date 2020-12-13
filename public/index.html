@@ -7,6 +7,12 @@
           max-width: 450px;
           margin: 2em auto;
         }
+        .response {
+          padding-bottom: 1em;
+        }
+        .response-status {
+          margin-right: 0.5em;
+        }
       }
     </style>
   </head>
@@ -34,6 +40,10 @@
           ><br />Sample output:
           <pre><code><span class="hljs-selector-tag">JS</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
         <li>
           <strong>Go:</strong>
@@ -42,6 +52,10 @@
           ><br />Sample output:
           <pre><code><span class="hljs-selector-tag">Go</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
         <li>
           <strong>Python:</strong>
@@ -50,6 +64,10 @@
           ><br />Sample output:
           <pre><code><span class="hljs-selector-tag">Python</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
         <li>
           <p>
@@ -60,6 +78,10 @@
           </p>
           <pre><code><span class="hljs-selector-tag">Ruby</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
       </ul>
       <h4 id="community-runtimes">Community Runtimes</h4>
@@ -73,6 +95,10 @@
           </p>
           <pre><code>Bash says hello world! Time is 2020<span class="hljs-string">-12</span><span class="hljs-string">-13</span> 13:01:07 <span class="hljs-string">+0200</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
         <li>
           <p>
@@ -83,6 +109,10 @@
           </p>
           <pre><code><span class="hljs-selector-tag">PHP</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
         <li>
           <p>
@@ -93,6 +123,10 @@
           </p>
           <pre><code><span class="hljs-selector-tag">Rust</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
         <li>
           <p>
@@ -103,6 +137,10 @@
           </p>
           <pre><code><span class="hljs-selector-tag">Deno</span> <span class="hljs-selector-tag">says</span> <span class="hljs-selector-tag">hello</span> <span class="hljs-selector-tag">world</span>! <span class="hljs-selector-tag">Time</span> <span class="hljs-selector-tag">is</span> 2020<span class="hljs-selector-tag">-12-13T11</span><span class="hljs-selector-pseudo">:17</span><span class="hljs-selector-pseudo">:22.185Z</span>
 </code></pre>
+          <div class="response">
+            Live response: <span class="response-status">loading..</span
+            ><span class="response-latency"></span>
+          </div>
         </li>
       </ul>
 
@@ -190,5 +228,30 @@
         }
       }
     </style>
+
+    <script>
+      const divs = document.getElementsByClassName("response");
+
+      let endpoints = [];
+      for (let i = 0; i < divs.length; i++) {
+        endpoints.push(divs[i].parentElement.querySelector("a").href);
+      }
+
+      endpoints.map(async (endpoint, i) => {
+        const starttime = new Date();
+
+        const resp = await fetch(endpoint);
+
+        const endtime = new Date();
+        const latency = endtime - starttime;
+
+        divs[i].querySelector(
+          ".response-status"
+        ).innerText = `httpstatus=${resp.status}`;
+        divs[i].querySelector(
+          ".response-latency"
+        ).innerText = `latency=${latency}ms`;
+      });
+    </script>
   </body>
 </html>
