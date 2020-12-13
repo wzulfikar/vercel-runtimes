@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/.yarn": true,
+        "**/build": true,
+        "**/node_modules": true
+    }
+}

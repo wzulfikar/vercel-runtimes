@@ -1,0 +1,4 @@
+.vercel
+node_modules
+api/rust/target
+api/rust/Cargo.toml.backup

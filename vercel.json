@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/php/*.php": {
+      "runtime": "vercel-php@0.1.0"
+    },
+    "api/rust/*.rs": {
+      "runtime": "now-rust@2.0.0"
+    },
+    "api/deno/*.[jt]s": {
+      "runtime": "vercel-deno@0.3.0"
+    },
+    "api/bash/*.sh": {
+      "runtime": "vercel-bash@3.0.8"
+    }
+  }
+}
