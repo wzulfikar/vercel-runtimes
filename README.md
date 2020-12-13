@@ -1,4 +1,4 @@
-# Vercel Runtimes
+<h1 align="center"><img src="public/vercel.png" style="margin-right: 0.5em; height: 0.6em;"/>Vercel Runtimes</h1>
 
 This repo contains code example for different vercel runtimes. Go to the [api directory](https://github.com/wzulfikar/vercel-runtimes/tree/main/api) to see the codes.
 
