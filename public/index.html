@@ -164,10 +164,10 @@
       <ul>
         <li>
           <b>hey</b> test (just for fun):
-          <a href="hey-test_2020-12-13 13.57.40.jpeg"
+          <a href="hey-test_2020-12-13.jpeg"
             ><img
               style="padding: 1em; width: 100%"
-              src="hey-test_2020-12-13 13.57.40.jpeg"
+              src="hey-test_2020-12-13.jpeg"
           /></a>
         </li>
         <li>
@@ -256,7 +256,7 @@
           const latency = endtime - starttime;
 
           // Example x-vercel-id: arn1::sfo1::ggszd-1607866746311-85544cfd4499
-          const region = resp.headers["x-vercel-id"].split("::")[1];
+          const region = resp.headers.get("x-vercel-id").split("::")[1];
 
           divs[i].querySelector(
             ".response-status"
