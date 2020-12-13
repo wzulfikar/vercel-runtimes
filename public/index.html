@@ -230,28 +230,25 @@
     </style>
 
     <script>
-      const divs = document.getElementsByClassName("response");
+      (async () => {
+        const divs = document.getElementsByClassName("response");
+        for (let i = 0; i < divs.length; i++) {
+          const endpoint = divs[i].parentElement.querySelector("a").href;
+          const starttime = new Date();
 
-      let endpoints = [];
-      for (let i = 0; i < divs.length; i++) {
-        endpoints.push(divs[i].parentElement.querySelector("a").href);
-      }
+          const resp = await fetch(endpoint);
 
-      endpoints.map(async (endpoint, i) => {
-        const starttime = new Date();
+          const endtime = new Date();
+          const latency = endtime - starttime;
 
-        const resp = await fetch(endpoint);
-
-        const endtime = new Date();
-        const latency = endtime - starttime;
-
-        divs[i].querySelector(
-          ".response-status"
-        ).innerText = `httpstatus=${resp.status}`;
-        divs[i].querySelector(
-          ".response-latency"
-        ).innerText = `latency=${latency}ms`;
-      });
+          divs[i].querySelector(
+            ".response-status"
+          ).innerText = `httpstatus=${resp.status}`;
+          divs[i].querySelector(
+            ".response-latency"
+          ).innerText = `latency=${latency}ms`;
+        }
+      })();
     </script>
   </body>
 </html>
