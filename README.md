@@ -40,6 +40,11 @@ This repo contains code example for different vercel runtimes. Go to the [api di
   ```
   PHP says hello world! Time is 2020-12-13T11:17:22.185Z
   ```
+- **Deno:** https://vercel-runtimes.vercel.app/api/deno  
+  Sample output:
+  ```
+  Deno says hello world! Time is 2020-12-13T11:17:22.185Z
+  ```
 - **Rust:** https://vercel-runtimes.vercel.app/api/rust  
   Sample output:
 

@@ -1,0 +1,44 @@
+hey -z 10s https://vercel-runtimes.vercel.app/api/deno
+
+Summary:
+  Total:        10.6552 secs
+  Slowest:      3.4115 secs
+  Fastest:      0.2035 secs
+  Average:      0.3279 secs
+  Requests/sec: 144.9062
+  
+  Total data:   84920 bytes
+  Size/request: 55 bytes
+
+Response time histogram:
+  0.203 [1]     |
+  0.524 [1458]  |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.845 [46]    |■
+  1.166 [31]    |■
+  1.487 [5]     |
+  1.807 [1]     |
+  2.128 [0]     |
+  2.449 [1]     |
+  2.770 [0]     |
+  3.091 [0]     |
+  3.411 [1]     |
+
+
+Latency distribution:
+  10% in 0.2404 secs
+  25% in 0.2694 secs
+  50% in 0.2906 secs
+  75% in 0.3198 secs
+  90% in 0.4068 secs
+  95% in 0.5471 secs
+  99% in 1.0285 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:   0.0085 secs, 0.2035 secs, 3.4115 secs
+  DNS-lookup:   0.0018 secs, 0.0000 secs, 0.0550 secs
+  req write:    0.0000 secs, 0.0000 secs, 0.0004 secs
+  resp wait:    0.3179 secs, 0.2033 secs, 3.4114 secs
+  resp read:    0.0001 secs, 0.0000 secs, 0.0003 secs
+
+Status code distribution:
+  [200] 1544 responses
